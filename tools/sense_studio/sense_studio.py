@@ -468,4 +468,4 @@ def flip_videos():
 
 if __name__ == '__main__':
     multiprocessing.set_start_method('spawn')
-    socketio.run(app)
+    socketio.run(app, host='0.0.0.0', port=5000)
